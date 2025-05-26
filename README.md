@@ -21,8 +21,8 @@ It simulates a designer listing platform, similar to a Figma design, with intera
  ├── index.html         ← Your frontend
  ├── styles.css
  ├── script.js
- ├── static/            ← For images, icons, etc.
- │   └── logo-small.png
+ ├──logo-small.png           ← For images, icons, etc.
+
 
 
 ## Setup Instructions
@@ -61,7 +61,7 @@ It simulates a designer listing platform, similar to a Figma design, with intera
     "price": "$$",
     "contacts": ["+91 - 984532853", "+91 - 984532854"]
   },
-]
+  ]
  ```
 
 6. **Finally Running the Frontend**
