@@ -22,17 +22,17 @@ It simulates a designer listing platform, similar to a Figma design, with intera
    cd emptycup-listing-app
    
 2. **Install required Python packages**
- -app.py uses Flask , install it:
+`app.py` -uses Flask , install it:
    ```bash
    pip install flask
    
 3. **Run the Backend Server**
-   In the terminal,run:
+-In the terminal,run:
    ```bash
    python app.py
    
 4. **Preview the Application**
-   -The backend should serve your HTML, CSS, and JS files, or you can open the index.html if 
+-The backend should serve your HTML, CSS, and JS files, or you can open the index.html if 
      it’s stand-alone.
    ```nginx
    Running on http://127.0.0.1:5000/
@@ -55,9 +55,9 @@ It simulates a designer listing platform, similar to a Figma design, with intera
  ```
 
 6. **Finally Running the Frontend**
-Simply open index.html in a browser.
-The page loads the UI as per the Figma design.
-All core functionality (shortlist, filter) is handled via script.js.
+-Simply open index.html in a browser.
+-The page loads the UI as per the Figma design.
+-All core functionality (shortlist, filter) is handled via script.js.
 
 
 
