@@ -35,6 +35,7 @@ It simulates a designer listing platform, similar to a Figma design, with intera
    -The backend should serve your HTML, CSS, and JS files, or you can open the index.html if it’s stand-alone.
    ```nginx
    Running on http://127.0.0.1:5000/
+
 5.**API Endpoint**
   -GET /api/listings
   -Returns JSON data for all designer listings.
@@ -51,6 +52,7 @@ It simulates a designer listing platform, similar to a Figma design, with intera
   },
   ...
 ]
+
 6.**Finally Running the Frontend**
   -Simply open index.html in a browser.
   -The page loads the UI as per the Figma design.
