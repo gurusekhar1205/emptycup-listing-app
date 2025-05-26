@@ -15,7 +15,8 @@ It simulates a designer listing platform, similar to a Figma design, with intera
 - Python Extension for VS Code
 
 ## Organize Project Folder
- emptycup-listing-app/
+
+emptycup-listing-app/
 ├── app.py             ← Your Flask backend
 ├── index.html         ← Your frontend
 ├── styles.css
@@ -64,9 +65,9 @@ It simulates a designer listing platform, similar to a Figma design, with intera
  ```
 
 6. **Finally Running the Frontend**
--Simply open index.html in a browser.
--The page loads the UI as per the Figma design.
--All core functionality (shortlist, filter) is handled via script.js.
+- Simply open `index.html` in a browser.
+- The page loads the UI as per the Figma design.
+- All core functionality (shortlist, filter) is handled via `script.js`.
 
 
 
