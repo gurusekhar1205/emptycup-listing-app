@@ -1,0 +1,186 @@
+body {
+  font-family: 'Chivo', sans-serif;
+  background-color: rgb(245,245,245);
+}
+.landing-page{
+  background-color: rgb(255, 255, 255);
+  max-width: 360px;
+  max-height: 800px;
+  margin: 20px auto; 
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05); 
+  overflow: hidden;
+}
+
+.top-bar {
+  background-color: white;
+  display: flex;
+  height: 71px;
+  border-bottom: 0.25px solid #d0d0d0;
+}
+
+.company-logo{
+  margin-top: 21px;
+  margin-left: 20px;
+  width: 31px;
+  height: 31px;
+}
+
+.company-brand {
+  font-size: 24px;
+  color: #716966;
+  font-weight: 400;
+  margin-left: 67px;
+  margin-top: 24px;
+  width: 124px;
+  height: 35px;
+}
+
+.more-icon {
+  font-size: 20px;
+  margin-left: 65px;
+  margin-top: 26px;
+  width: 27px;
+  height: 27px;
+}
+
+.nav-tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  height: 91px;
+}
+.sub-nav-tabs{
+  display: flex;
+}
+.contact-tab{
+  width: 34px;
+  height: 42;
+  margin-top: 23px;
+  margin-left: 16px;
+}
+.gallery-tab {
+  width: 27px;
+  height: 40.5px;
+  margin-top: 25px;
+  margin-left: 27px; 
+}
+.map-tab {
+  width: 17px;
+  height: 40.75px;
+  margin-top: 25px;
+  margin-left: 35px;
+  opacity: 0.3; 
+}
+.shortlist-tab {
+  width: 42px;
+  height: 46px;
+  margin-top: 23px;
+  margin-left: 100px; 
+}
+
+.sort-tab {
+  width: 31px;
+  height: 44px;
+  margin-top: 26px;
+  margin-left: 22px;
+}
+.contact-tab i, .map-tab i, .gallery-tab i, .shortlist-tab i, .sort-tab i{
+  font-size: 24px;
+}
+
+.tab {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444;
+  position: relative;
+}
+
+.tab i {
+  margin-bottom: 6px;
+}
+
+.tab.active {
+  color: #c4820d;
+}
+
+.designer-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fffcf2;
+  padding: 16px;
+  border-radius: 12px;
+  border-top: 0 solid #d7d7d7;
+}
+
+.card-left {
+  max-width: 72%;
+  
+}
+
+.card-left h2 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.stars {
+  margin-bottom: 6px;
+  color: #000;
+}
+
+.desc {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  font-size: 12px;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+  padding-left: 4px;
+  border-left: 0.25px solid #d0d0d0;
+}
+.tab-cards{
+  flex-direction: column;
+}
+
+.card-right button {
+  background: none;
+  border: none;
+  font-size: 10px;
+  margin: 4px 0;
+  color: #8b4c3a;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card-right i {
+  font-size: 14px;
+  margin-bottom: 4px;
+
+}
+
+.shortlisted i {
+  color: red;
+}
+
+
+
