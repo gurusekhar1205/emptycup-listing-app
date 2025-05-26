@@ -22,7 +22,7 @@ It simulates a designer listing platform, similar to a Figma design, with intera
    cd emptycup-listing-app
    
 2. **Install required Python packages**
-   app.py uses Flask , install it:
+ -app.py uses Flask , install it:
    ```bash
    pip install flask
    
@@ -35,7 +35,6 @@ It simulates a designer listing platform, similar to a Figma design, with intera
    -The backend should serve your HTML, CSS, and JS files, or you can open the index.html if it’s stand-alone.
    ```nginx
    Running on http://127.0.0.1:5000/
-  This starts the REST API server.
 5.**API Endpoint**
   -GET /api/listings
   -Returns JSON data for all designer listings.
