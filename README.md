@@ -62,7 +62,7 @@ It simulates a designer listing platform, similar to a Figma design, with intera
     "contacts": ["+91 - 984532853", "+91 - 984532854"]
   },
   ]
- ```
+
 
 6. **Finally Running the Frontend**
 - Simply open `index.html` in a browser.
