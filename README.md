@@ -14,6 +14,16 @@ It simulates a designer listing platform, similar to a Figma design, with intera
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 - Python Extension for VS Code
 
+## Organize Project Folder
+ emptycup-listing-app/
+├── app.py             ← Your Flask backend
+├── index.html         ← Your frontend
+├── styles.css
+├── script.js
+├── static/            ← For images, icons, etc.
+│   └── logo-small.png
+
+
 ## Setup Instructions
 
 1. **Clone the repository**
@@ -50,7 +60,6 @@ It simulates a designer listing platform, similar to a Figma design, with intera
     "price": "$$",
     "contacts": ["+91 - 984532853", "+91 - 984532854"]
   },
-  ...
 ]
  ```
 
