@@ -16,13 +16,13 @@ It simulates a designer listing platform, similar to a Figma design, with intera
 
 ## Organize Project Folder
 
-emptycup-listing-app/
-├── app.py             ← Your Flask backend
-├── index.html         ← Your frontend
-├── styles.css
-├── script.js
-├── static/            ← For images, icons, etc.
-│   └── logo-small.png
+ emptycup-listing-app/
+ ├── app.py             ← Your Flask backend
+ ├── index.html         ← Your frontend
+ ├── styles.css
+ ├── script.js
+ ├── static/            ← For images, icons, etc.
+ │   └── logo-small.png
 
 
 ## Setup Instructions
@@ -33,23 +33,23 @@ emptycup-listing-app/
    cd emptycup-listing-app
    
 2. **Install required Python packages**
-`app.py` -uses Flask , install it:
+ - `app.py` -uses Flask , install it:
    ```bash
    pip install flask
    
 3. **Run the Backend Server**
--In the terminal,run:
+- In the terminal,run:
    ```bash
    python app.py
    
 4. **Preview the Application**
--The backend should serve your HTML, CSS, and JS files, or you can open the index.html if 
-     it’s stand-alone.
+- The backend should serve your HTML, CSS, and JS files, or you can open the index.html if 
+  it’s stand-alone.
    ```nginx
    Running on http://127.0.0.1:5000/
    ```
 5. **API Endpoint**
-`GET /api/listings`-Returns JSON data for all designer listings.
+- `GET /api/listings`-Returns JSON data for all designer listings.
   **Example output**
   ```json 
   [
