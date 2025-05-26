@@ -7,6 +7,10 @@ This project is a full stack web application that demonstrates both frontend and
 
 It simulates a designer listing platform, similar to a Figma design, with interactive features like shortlisting and filtering designers.
 
+## Live Demo
+
+[View the Live Site](https://gurusekhar1205.github.io/emptycup-listing-app/)
+
 
 ## Prerequisites
 
