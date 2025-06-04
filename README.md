@@ -1,4 +1,4 @@
-# emptycup-listing-app
+# emptycup_listing_app
 
 This project is a full stack web application that demonstrates both frontend and backend development skills using:
 
